@@ -2656,12 +2656,12 @@ input, select, textarea {
 			-ms-order: 1;
 			order: 1;
 			border-radius: 0;
-			width: 40%;
+			width: 60%;
 		}
 
 			.spotlight .image img {
 				border-radius: 0;
-				width: 100%;
+				width: 60%;`
 			}
 
 		.spotlight .content {
@@ -2690,7 +2690,7 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: rgb(45, 125, 148);
 		}
 
 		.spotlight:nth-child(4) {
@@ -2762,6 +2762,19 @@ input, select, textarea {
 				padding: 3em 2em 1em 2em ;
 			}
 
+		}
+
+		#profile-pic {
+			/*height: 50%;*/
+		}
+
+		#actualize-logo {
+			height: 320px;
+			width: 320px;
+		}
+
+		#capstone {
+			
 		}
 
 /* Wrapper */
@@ -3857,9 +3870,16 @@ input, select, textarea {
 
 		}
 
+
+
 	body.is-mobile #main > header {
 		background-attachment: scroll;
 	}
+/*
+	#profile-pic {
+		height: 20px;
+		width: 20px;
+	}*/
 
 /* Footer */
 
@@ -3976,3 +3996,4 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
